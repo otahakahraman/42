@@ -132,6 +132,6 @@ All core algorithm implementations, logic design, and debugging were completed b
 
 ---
 
-**Authors:** okahrama, okahrama  
+**Authors:** iakovali, okahrama  
 **School:** 42 Istanbul  
 **Language:** C
