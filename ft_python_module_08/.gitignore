@@ -1,0 +1,17 @@
+# Virtual environments
+matrix_env/
+test_env/
+bos_env/
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.mypy_cache/
+
+# Secrets (ex2)
+.env
+
+# ex1 çıktısı
+matrix_analysis.png
