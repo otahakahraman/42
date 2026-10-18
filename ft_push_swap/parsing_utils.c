@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   parsing_utils.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: okahrama <okahrama@student.42istanbul.c>   +#+  +:+       +#+        */
+/*   By: okahrama <okahrama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/26 16:41:19 by okahrama          #+#    #+#             */
 /*   Updated: 2026/04/26 16:43:23 by okahrama         ###   ########.fr       */

@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   medium_algorithm_utils.c                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: okahrama <okahrama@student.42istanbul.c>   +#+  +:+       +#+        */
+/*   By: okahrama <okahrama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/24 20:33:49 by okahrama          #+#    #+#             */
 /*   Updated: 2026/04/24 21:10:51 by okahrama         ###   ########.fr       */

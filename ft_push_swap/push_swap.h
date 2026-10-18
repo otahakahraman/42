@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   push_swap.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: okahrama <okahrama@student.42istanbul.c>   +#+  +:+       +#+        */
+/*   By: okahrama <okahrama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/05 13:47:13 by okahrama          #+#    #+#             */
 /*   Updated: 2026/04/26 16:40:22 by okahrama         ###   ########.fr       */

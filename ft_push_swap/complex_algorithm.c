@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   complex_algorithm.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: okahrama <okahrama@student.42istanbul.c>   +#+  +:+       +#+        */
+/*   By: okahrama <okahrama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/17 17:35:54 by okahrama          #+#    #+#             */
 /*   Updated: 2026/04/24 21:11:03 by okahrama         ###   ########.fr       */

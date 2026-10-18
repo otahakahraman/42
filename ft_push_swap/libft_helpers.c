@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   libft_helpers.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: okahrama <okahrama@student.42istanbul.c>   +#+  +:+       +#+        */
+/*   By: okahrama <okahrama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/23 22:30:27 by okahrama          #+#    #+#             */
 /*   Updated: 2026/04/24 18:59:08 by okahrama         ###   ########.fr       */

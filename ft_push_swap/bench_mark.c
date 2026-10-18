@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   bench_mark.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: okahrama <okahrama@student.42istanbul.c>   +#+  +:+       +#+        */
+/*   By: okahrama <okahrama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/23 18:53:19 by okahrama          #+#    #+#             */
 /*   Updated: 2026/04/24 19:59:06 by okahrama         ###   ########.fr       */

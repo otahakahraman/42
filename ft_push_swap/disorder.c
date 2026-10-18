@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   disorder.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: okahrama <okahrama@student.42istanbul.c>   +#+  +:+       +#+        */
+/*   By: okahrama <okahrama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/04/24 18:27:46 by okahrama          #+#    #+#             */
-/*   Updated: 2026/04/24 21:09:49 by okahrama        ###   ########.fr        */
+/*   Created: 2026/03/17 17:20:52 by okahrama          #+#    #+#             */
+/*   Updated: 2026/04/24 21:11:32 by okahrama         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

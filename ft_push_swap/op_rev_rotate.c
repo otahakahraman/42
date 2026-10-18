@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   op_rev_rotate.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: okahrama <okahrama@student.42istanbul.c>   +#+  +:+       +#+        */
+/*   By: okahrama <okahrama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/24 18:27:52 by okahrama          #+#    #+#             */
 /*   Updated: 2026/04/24 21:12:01 by okahrama         ###   ########.fr       */

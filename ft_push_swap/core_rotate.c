@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   core_rotate.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: okahrama <okahrama@student.42istanbul.c>   +#+  +:+       +#+        */
+/*   By: okahrama <okahrama@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/24 18:27:43 by okahrama          #+#    #+#             */
 /*   Updated: 2026/04/24 21:09:49 by okahrama         ###   ########.fr       */
