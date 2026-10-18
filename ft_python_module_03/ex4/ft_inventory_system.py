@@ -1,54 +1,71 @@
 import sys
 
-def inventory_sys() -> None:
-    Inventory={
-        "sword":0,
-        "potion":0,
-        "shield":0,
-        "armor":0,
-        "helmet":0,
-        "sword":0,
-        "key":0,
-        "magic_item":0,
-        "meat":0,
-        "fruit":0,
-        "water":0,
-        "medicine":0,
-        "bread":0,
-        "bow":0,
-        "axe":0
-                }
-    list_use=set()
-    listed=set(sys.argv[1:])
-    list_inventory={}
-    for i in listed:
+
+def my_split(text: str, sep: str) -> list[str]:
+    parts: list[str] = []
+    current = ""
+    for ch in text:
+        if ch == sep:
+            parts = parts + [current]
+            current = ""
+        else:
+            current += ch
+    parts = parts + [current]
+    return parts
+
+
+def inventory_system() -> None:
+    inventory: dict[str, int] = {}
+
+    for arg in sys.argv[1:]:
+        parts = my_split(arg, ":")
+        if len(parts) != 2 or len(parts[0]) == 0:
+            print(f"Error - invalid parameter '{arg}'")
+            continue
+        key = parts[0]
+        if key in inventory:
+            print(f"Redundant item '{key}' - discarding")
+            continue
         try:
-            name,amount=i.split(":")
-            if name not in Inventory: 
-                print(f"Error - invalid parameter '{name}'")
-                continue
-            if name in list_use:
-                print(f"Redundant item '{name}' - discarding")
-                continue
-            list_inventory[name]=int(amount)
-            list_use.add(name)
-        except ValueError as err:
-            if ":" not in i:
-                print(f"Error - invalid parameter '{i}'")
-            else:
-                print(f"Quantity error for '{name}': {err}")
+            quantity = int(parts[1])
+        except ValueError as e:
+            print(f"Quantity error for '{key}': {e}")
+            continue
+        inventory.update({key: quantity})
 
-    inv_names=list(list_inventory.keys())
-    inv_values=list(list_inventory.values())
-    print(f"Got inventory: {list_inventory}")
-    print(f"Item list: {inv_names}")
-    print(f"Total quantity of the {len(inv_names)} items: 12")
+    item_list = list(inventory.keys())
+    total = sum(inventory.values())
 
-    for i in list_inventory:
-        print(f"Item {i.keys()} represents 8.3%")
+    print(f"Got inventory: {inventory}")
+    print(f"Item list: {item_list}")
+    print(f"Total quantity of the {len(inventory)} items: {total}")
+
+    if total > 0:
+        for item in inventory:
+            percent = round(inventory[item] * 100 / total, 1)
+            print(f"Item {item} represents {percent}%")
+
+    if len(inventory) > 0:
+        max_key = item_list[0]
+        min_key = item_list[0]
+        for item in inventory:
+            if inventory[item] > inventory[max_key]:
+                max_key = item
+            if inventory[item] < inventory[min_key]:
+                min_key = item
+        print(f"Item most abundant: {max_key} "
+              f"with quantity {inventory[max_key]}")
+        print(f"Item least abundant: {min_key} "
+              f"with quantity {inventory[min_key]}")
+
+    inventory.update({"magic_item": 1})
+    print(f"Updated inventory: {inventory}")
+
+
 def main() -> None:
     print("=== Inventory System Analysis ===")
-    inventory_sys()
+    inventory_system()
+
 
 if __name__ == "__main__":
     main()
